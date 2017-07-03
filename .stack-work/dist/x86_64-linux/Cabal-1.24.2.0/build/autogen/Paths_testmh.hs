@@ -26,13 +26,13 @@ catchIO :: IO a -> (Exception.IOException -> IO a) -> IO a
 catchIO = Exception.catch
 
 version :: Version
-version = Version [0,1,0,0] []
+version = Version [0,1,0,1] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "/home/mikeh/testmh/.stack-work/install/x86_64-linux/lts-8.21/8.0.2/bin"
-libdir     = "/home/mikeh/testmh/.stack-work/install/x86_64-linux/lts-8.21/8.0.2/lib/x86_64-linux-ghc-8.0.2/testmh-0.1.0.0-5UP5LMUhX6SFQr4EUydCtz"
+libdir     = "/home/mikeh/testmh/.stack-work/install/x86_64-linux/lts-8.21/8.0.2/lib/x86_64-linux-ghc-8.0.2/testmh-0.1.0.1-CgaDae8x7v8VOpjQ2u5YM"
 dynlibdir  = "/home/mikeh/testmh/.stack-work/install/x86_64-linux/lts-8.21/8.0.2/lib/x86_64-linux-ghc-8.0.2"
-datadir    = "/home/mikeh/testmh/.stack-work/install/x86_64-linux/lts-8.21/8.0.2/share/x86_64-linux-ghc-8.0.2/testmh-0.1.0.0"
+datadir    = "/home/mikeh/testmh/.stack-work/install/x86_64-linux/lts-8.21/8.0.2/share/x86_64-linux-ghc-8.0.2/testmh-0.1.0.1"
 libexecdir = "/home/mikeh/testmh/.stack-work/install/x86_64-linux/lts-8.21/8.0.2/libexec"
 sysconfdir = "/home/mikeh/testmh/.stack-work/install/x86_64-linux/lts-8.21/8.0.2/etc"
 
