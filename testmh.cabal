@@ -1,11 +1,11 @@
 name:                testmh
-version:             0.1.0.0
+version:             0.1.0.1
 -- synopsis:
 -- description:
 homepage:            https://github.com/githubuser/testmh#readme
 license:             BSD3
 license-file:        LICENSE
-author:              Author name here
+author:              Mike H
 maintainer:          example@example.com
 copyright:           2017 Author name here
 category:            Web
