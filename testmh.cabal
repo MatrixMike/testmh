@@ -1,8 +1,8 @@
 name:                testmh
-version:             0.1.0.1
+version:             0.1.0.2
 -- synopsis:
 -- description:
-homepage:            https://github.com/githubuser/testmh#readme
+homepage:            https://github.com/MatrixMike/testmh
 license:             BSD3
 license-file:        LICENSE
 author:              Mike H
@@ -38,4 +38,4 @@ test-suite testmh-test
 
 source-repository head
   type:     git
-  location: https://github.com/githubuser/testmh
+  location: https://github.com/MatrixMike/testmh
