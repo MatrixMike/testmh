@@ -8,6 +8,6 @@ main :: IO ()
 main = do 
     someFunc
     print $ sq (sqrt (7 + 9))
-    print $ sq $ sqrt 7 + 9
+    print $ sq $ sqrt $ 7 + 9
     print $ (sq . sqrt) $ 7 + 9
     
