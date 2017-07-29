@@ -1,7 +1,7 @@
 name:                testmh
-version:             0.1.0.2
--- synopsis:
--- description:
+version:             0.1.0.3
+synopsis:            derived from initial 'new'
+description:         test of libraries
 homepage:            https://github.com/MatrixMike/testmh
 license:             BSD3
 license-file:        LICENSE
