@@ -1,7 +1,9 @@
+{-# OPTIONS_GHC -fwarn-missing-signatures #-}
 module Main where
 
 import Lib
 
+sq :: Num a => a -> a
 sq x = x * x
 
 main :: IO ()
