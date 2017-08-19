@@ -18,7 +18,8 @@ main = do
     print $ (sqrt . id) 256
 -- 27.07.2017 02:06:23
     print $ prod 4 5 
-    print $ prod  2 prod 4 5     
+    print $ prod  2 (prod 4 5)
+    
     
     
     
