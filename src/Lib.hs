@@ -3,4 +3,11 @@ module Lib
     ) where
 
 someFunc :: IO ()
-someFunc = putStrLn "someFunc 3"
+{-someFunc = do
+--sq x = x * x
+    putStrLn "someFunc 3"
+-}
+someFunc = putStrLn "someNewFunc"
+{-
+https://www.fpcomplete.com/blog/2012/09/ten-things-you-should-know-about-haskell-syntax
+-}
